@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpay</title>
+    <link rel="icon" href="imgs/busay-pics/sattorres-front-view2.jpg" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <div class="introduction modern-intro">
+        <div class="intro-container">
+            <div class="intro-text">
+                <h1 style=" text-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);"><span style="color: rgb(0, 238, 0);">Kumpay</span></h1>
+                <p style="text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);">
+                    <strong>Discover Kumpay: Your Mountain Escape
+                        Experience tranquility at Kumpay, where stunning mountain views and the warmth 
+                        of nature come together. Relax in a peaceful retreat, perfect for unwinding after
+                        a long day. Witness breathtaking sunsets as they paint the horizon, creating 
+                        unforgettable moments of serenity and wonder.
+                </p>
+                <a href="https://www.google.com/maps/place/Kumpay/@11.5057198,124.4779609,17z/data=!3m1!4b1!4m6!3m5!1s0x33a7f5000681ec13:0xedcefc4b82d4f463!8m2!3d11.5057146!4d124.4805358!16s%2Fg%2F11ldlxs3zq?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank"><button class="cta-button">Go now</button></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Best Sellers Section -->
+<div class="section">
+    <h2>ACTIVITIES</h2>
+    <hr><br>
+    <div class="info" style="background-color: rgb(157, 255, 144);">
+        <p>
+            Pitch a tent, unwind in cozy retreats, and soak in stunning mountain sunsets—the perfect escape into nature's beauty.
+        </p>
+    </div><br>
+    <div class="products">
+        <div class="product-card">
+                <img src="imgs/kumpay-pics/Kumpay-niceview.jpg" alt="" onclick="openImageModal('imgs/kumpay-pics/Kumpay-niceview.jpg')">
+            <p style="text-decoration: none; color: #333;">Enjoy Mountain View</p>
+        </div>
+        <div class="product-card">
+                <img src="imgs/kumpay-pics/kumpay-tents.jpg" alt="" onclick="openImageModal('imgs/kumpay-pics/kumpay-tents.jpg')">
+            <p>Retreat</p>
+        </div>
+        <div class="product-card">
+                <img src="imgs/kumpay-pics/Kumpay-niceview1.jpg" alt="" onclick="openImageModal('imgs/kumpay-pics/Kumpay-niceview1.jpg  ')">
+            <p>Sunset View</p>
+        </div>
+    </div>
+    <br><br><br>
+</div>
+
+<div class="delivery-info">
+    <h1 style="text-align: center; color: black;">INFOGRAPHICS</h1><br>
+    <div class="Inforgraphic">
+        <div class="img">
+            <img src="imgs/kumpay-pics/kumpay-infographic.jpg" alt="Resort's Location" class="delivery-map-img">
+        </div>
+    </div><br><br>
+</div>
+
+<div class="delivery-info">
+    <h1 style="text-align: center; color: black;">Location</h1><br>
+    <div class="delivery-container">
+        <div class="delivery-text">
+            <h2><span style="color: rgb(0, 238, 0)">Kumpay</span>, Canila, Biliran, Biliran</h2>
+            <p> 
+                Getting to Kumpay is simple and hassle-free! With well-paved roads and clear signs, 
+                your journey is smooth whether by private car or public transport. Enjoy the scenic 
+                drive and arrive ready to embrace nature and unforgettable moments.
+            </p>
+            <a href="https://www.google.com/maps/place/Kumpay/@11.5057198,124.4779609,17z/data=!3m1!4b1!4m6!3m5!1s0x33a7f5000681ec13:0xedcefc4b82d4f463!8m2!3d11.5057146!4d124.4805358!16s%2Fg%2F11ldlxs3zq?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+                <button class="cta-button">See Location</button>
+            </a>
+        </div>
+        <div class="delivery-map">
+            <h3>Google Map Location</h3>
+            <img src="imgs/kumpay-pics/location.png" alt="Resort's Location" class="delivery-map-img" onclick="openImageModal('imgs/kumpay-pics/location.png')"/>
+        </div>
+        
+        <div id="imageModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="img01" src="" alt="Enlarged Image">
+        </div>
+
+        <script>
+            function openImageModal(imageSrc) {
+                document.getElementById("img01").src = imageSrc;
+                document.getElementById("imageModal").style.display = "block";
+            }
+
+            function closeModal() {
+                document.getElementById("imageModal").style.display = "none";
+            }
+        </script>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div id="footer">
+    <p>©2024 Kumpay | All Rights Reserved</p>
+    <p>Name: <a href="https://web.facebook.com/chan.gaviola.2024" target="_blank">Jenny Ann Cerdeña</a></p>
+</div>
+
+<!-- Floating Button -->
+<button class="floating-btn">
+    <a href="https://www.google.com/maps/place/Kumpay/@11.5057198,124.4779609,17z/data=!3m1!4b1!4m6!3m5!1s0x33a7f5000681ec13:0xedcefc4b82d4f463!8m2!3d11.5057146!4d124.4805358!16s%2Fg%2F11ldlxs3zq?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank" style="color: white;">
+        <i class="fas fa-book" style="width: 23px;"></i>
+    </a>
+</button>
+
+<script>
+    // Toggle navigation menu
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
